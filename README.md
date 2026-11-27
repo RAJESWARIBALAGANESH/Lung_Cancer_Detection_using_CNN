@@ -110,9 +110,9 @@ Automated multi-class medical image classification pipelines.
 AI-assisted clinical decision support and healthcare research.
 
 🤝 Connect With Me
-LinkedIn: Rajeswari Balaganesh
+LinkedIn: Rajeswari Balaganesh https://www.linkedin.com/in/rajeswari-balaganesh-/
 
-GitHub: @rajeswaribalaganesh03
+GitHub: @rajeswaribalaganesh03 (second account)
 
 ⚠️ Disclaimer
 This is an experimental research and educational project. It is not a certified medical device and is not intended to replace professional medical diagnosis, clinical judgment, or treatment.
