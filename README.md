@@ -1,1 +1,20 @@
-# Lung_Cancer_Detection_using_CNN
+🫁 Lung Cancer Detection Using Deep Learning (Custom CNN)A deep learning-based Lung Cancer Detection system built using a custom Convolutional Neural Network (CNN) to classify lung CT scan images into three distinct medical categories: Benign, Malignant, and Normal.📋 Table of ContentsOverviewProblem StatementDatasetTech StackImplementation WorkflowModel Architecture & TrainingResults & EvaluationInstallation & UsageKey LearningsPotential ApplicationsDisclaimer💡 OverviewEarly detection plays a critical role in improving lung cancer treatment outcomes. This project leverages computer vision and a custom CNN built from scratch to automatically analyze and classify lung CT scan images into:ClassLabelDescription🟢 Benign0Abnormal tissue growth that is non-cancerous🔴 Malignant1Cancerous growth requiring medical intervention🔵 Normal2Healthy lung CT scans with no abnormalities⚠️ Problem StatementManual interpretation of medical CT scans requires significant clinical expertise and time, and can be subject to human fatigue or diagnostic variability. This project explores how deep learning can automate multi-class medical image classification to support research in AI-assisted diagnostic workflows.📂 DatasetDataset Name: IQ-OTH/NCCD Lung Cancer DatasetData Split: Managed programmatically using split-folders into training and validation subsets.Input Dimensions: All CT scan images are preprocessed, normalized, and resized to 64 × 64 pixels.🛠️ Tech StackProgramming Language: PythonDeep Learning Frameworks: TensorFlow, Keras (Custom CNN)Image Processing & Numerics: NumPy, OpenCV (cv2), Pillow (PIL)Dataset Management: split-foldersVisualization & Evaluation: Matplotlib, Scikit-learn (Confusion Matrix & Classification Metrics)Development Environment: Google Colab⚙️ Implementation Workflow📂 Dataset Collection (IQ-OTH/NCCD Lung Cancer Dataset)
+   │
+   ▼
+🖼️ Image Preprocessing, Normalization & Resizing (64 × 64)
+   │
+   ▼
+🧠 Custom CNN Feature Extraction (Conv2D → MaxPooling → Dropout)
+   │
+   ▼
+🔧 Model Training & Validation (3 Epochs)
+   │
+   ▼
+📊 Performance Evaluation (Accuracy, Loss & Confusion Matrix)
+   │
+   ▼
+🔍 Three-Class Classification & Single CT Image Inference
+🧠 Model Architecture & TrainingThe model is designed as a lightweight, custom Convolutional Neural Network tailored for rapid feature extraction on resized CT imagery:Convolutional Layers (Conv2D): Extract spatial hierarchies, edges, and texture patterns from lung tissue scans.Pooling Layers (MaxPooling2D): Downsample feature maps to retain dominant features and reduce computational overhead.Regularization (Dropout): Prevents overfitting on training scans and improves generalization.Classification Head: Dense fully connected layers outputting probabilities across the 3 target classes (Benign, Malignant, Normal).Training Configuration: Trained and validated across 3 epochs in Google Colab.📊 Results & EvaluationMetricScore / ValueValidation Accuracy94.11%Validation Loss~0.149Classification Type3-Class Multi-Class ClassificationEvaluation HighlightsEvaluated model generalization using Confusion Matrix and multi-class performance metrics.Verified real-world inference capability by running individual predictions on previously unseen CT scan images.
+💡 Key LearningsDesigning and training a custom CNN architecture from scratch in TensorFlow/Keras.Building end-to-end medical image preprocessing pipelines (resizing, pixel normalization, and folder splitting).Interpreting training vs. validation loss and evaluating multi-class predictions with a confusion matrix.Implementing standalone inference scripts to classify individual unseen CT scan images.🌍 Potential ApplicationsMedical image analysis and computer vision research.Automated triage and screening prototypes for radiology workflows.Academic benchmarks for lightweight healthcare AI models.🤝 Connect With Me
+Rajeswari Balaganesh
+🔗 LinkedIn: linkedin.com/in/rajeswari-balaganesh-⚠️ DisclaimerMedical Disclaimer: This project is developed strictly for educational and experimental research purposes. It is not a certified medical device and is not intended to replace professional medical advice, diagnosis, or treatment.
